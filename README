@@ -1,0 +1,10 @@
+This project gets a feed from usesthis.com, finds what things people use, and dumps those to a CSV. Analysis is done in R: I was interested if there are different kinds of productive people.
+
+The answer is yes, and LDA surprises with how stereotypical it can be. One kind uses "emacs, python, ubuntu, ruby, firefox" for instance, and another uses "iphone 4, macbook pro, ipad, chrome, dropbox". 
+ 
+Eventually, I might build a recommender on top of this, but I've procrastinated enough as it is :)
+ 
+Requirements:
+ 
+You need the BeautifulSoup module for Python, and the {lda} and {plyr} packages for R.
+
