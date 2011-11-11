@@ -1,3 +1,5 @@
+library(plyr)
+library(lda)
 productive <- read.csv("cool_objects.csv", header=F)
 colnames(productive) <- c("Person", "Thing", "Description", "URL")
 
